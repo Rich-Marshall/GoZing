@@ -3065,7 +3065,7 @@ body {
 .vertical-align .container-mid {
     position: absolute;
     z-index: 200;
-    top: 50%;
+    top: 75%;
     left: 50%;
     width: 100%;
     -webkit-transform: translate(-50%, -50%);
@@ -5905,7 +5905,7 @@ address p {
 }
 
 .banner-gozing {
-    background-image: url("../img/GoZing-Primary-Logo-Background.png") !important;
+    background-image: url("../img/GoZing-Primary-Logo-Tablet.png") !important;
 }
 
 
@@ -6369,6 +6369,10 @@ Table of contents
 }
 
 @media screen and (max-width: 767px) {
+    .banner-gozing {
+      background-image: url("../img/GoZing-Primary-Logo-Mobile.png") !important;
+    }
+
     .page-title .breadcrumb {
         right: auto;
         left: 15px;
