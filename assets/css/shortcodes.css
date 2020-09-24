@@ -280,22 +280,23 @@
 /* ----------------------------------------------------------------
     feature parallax
 -----------------------------------------------------------------*/
-.feature-parallax {
+.social-parallax {
     background-image: url("../img/parallax/4.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
-.feature-parallax .page-content {
+.social-parallax .page-content {
     padding: 100px 0;
 }
 
-.feature-parallax.dark,
-.feature-parallax.dark .featured-item .title h4,
-.feature-parallax.dark .featured-item .desc {
+.social-parallax.dark,
+.social-parallax.dark .featured-item .title h4,
+.social-parallax.dark .featured-item .desc {
     color: #fff;
 }
+
 
 .featured-item .bottom-border i {
     display: inline-block;
@@ -1092,7 +1093,7 @@ dl.toggle.time-line:before {
 }
 
 .promo-box.dark-bg {
-    background: #222;
+    background: #4E4E4E;
 }
 
 .light-txt,
@@ -1754,30 +1755,30 @@ dl.toggle.time-line:before {
 }
 
 /*------------*/
-.post-parallax {
+.influencer-parallax {
     overflow: hidden;
     width: 100% !important;
     height: 100%;
-    background-image: url("../img/parallax/4.jpg");
+    background-image: url("../img/parallax/9.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 50%;
     background-size: cover;
 }
 
-.post-parallax .relative {
+.influencer-parallax .relative {
     float: left;
 }
 
-.post-parallax .space {
+.influencer-parallax .space {
     padding: 0 30px;
 }
 
-.post-parallax .massive-progress {
+.influencer-parallax .massive-progress {
     background: #606060;
 }
 
-.post-parallax .massive-progress .progress-bar {
+.influencer-parallax .massive-progress .progress-bar {
     color: #222;
     background: #fff;
 }
@@ -1786,7 +1787,7 @@ dl.toggle.time-line:before {
     position: relative;
 }
 
-.post-parallax .dark-overlay {
+.influencer-parallax .dark-overlay {
     position: absolute;
     top: 0;
     right: 0;
@@ -1796,7 +1797,7 @@ dl.toggle.time-line:before {
     background: rgba(0, 0, 0, .5);
 }
 
-.post-parallax .container {
+.influencer-parallax .container {
     /*z-index: 100;*/
     position: relative;
 }
@@ -3280,12 +3281,12 @@ dl.toggle.time-line:before {
     background-color: #666;
 }
 
-.post-parallax .massive-progress .progress-bar > span {
+.influencer-parallax .massive-progress .progress-bar > span {
     color: #222 !important;
     background-color: #a4a4a4 !important;
 }
 
-.post-parallax .massive-progress .progress-bar > span:before {
+.influencer-parallax .massive-progress .progress-bar > span:before {
     border-color: #a4a4a4;
     border-right: 1px solid #a4a4a4;
     -o-border-image: none;
