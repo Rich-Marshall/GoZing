@@ -6063,7 +6063,7 @@ Table of contents
     .portfolio.col-4 .portfolio-item,
     .portfolio.col-5 .portfolio-item,
     .portfolio.col-6 .portfolio-item {
-        width: 33.3333333%;
+        width: 50%;
         /*width: 50%;*/
     }
     .social-link.pull-right {
