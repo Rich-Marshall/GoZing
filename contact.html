@@ -137,57 +137,49 @@
                             <h4 class="text-uppercase">Got any questions for us?</h4>
                             <p>Drop us a message for a free consultation. No obligations, just results.</p>
 
-                            <form class="contact-comments m-top-50 js-Mailer" method="post">
-
+                            <!-- <form class="contact-comments m-top-50 js-Mailer" method="post"> -->
+                            <form action="https://app.99inbound.com/api/e/Pk9dJ7ii" method="POST" target="_blank">
                                 <div class="row">
 
                                     <div class="col-md-6 form-group">
                                         <label for="form-field-name">Name *</label>
-                                        <!-- Name -->
+
                                         <input type="text" name="name" id="form-field-name" class="form-control" maxlength="100" required data-error="You must enter name">
                                         <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="col-md-6 form-group">
                                         <label for="form-field-email">Email *</label>
-                                        <!-- Email -->
+
                                         <input type="email" name="email" id="form-field-email" class="form-control" maxlength="100" required data-error="Invalid email address!">
                                         <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="form-group col-md-6">
                                         <label for="form-field-phone">Phone</label>
-                                        <!-- Phone -->
+
                                         <input type="text" name="phone" id="form-field-phone" class="form-control" maxlength="100">
                                     </div>
 
                                     <div class="form-group col-md-6">
                                         <label for="form-field-subject">Subject</label>
-                                        <!-- Subject -->
+
                                         <input type="text" name="subject" id="form-field-subject" class="form-control" maxlength="100">
                                     </div>
 
                                     <div class="form-group col-md-12">
-                                        <label for="form-field-comments">Comments</label>
-                                        <!-- Comment -->
-                                        <textarea name="comments" id="form-field-comments" class="cmnt-text form-control" rows="6" maxlength="400"></textarea>
+                                        <label for="form-field-comments">Message *</label>
+
+                                        <textarea name="comments" id="form-field-comments" class="cmnt-text form-control" rows="6" maxlength="400" required data-error="You must enter a message"></textarea>
                                     </div>
 
                                     <!-- Send Button -->
                                     <div class="form-group col-md-12">
-                                        <button type="submit" class="btn btn-small btn-rounded btn-dark-solid ">Send Message</button>
+                                        <button class="btn btn-small btn-rounded btn-dark-solid ">Send Message</button>
                                     </div>
-
                                 </div>
-                                <input type="hidden" name="id" value="FORM_ALT">
-
                             </form>
 
-                            <form action="https://app.99inbound.com/api/e/Pk9dJ7ii" method="POST" target="_blank">
-                              <input type="email" name="email" placeholder="enter your email">
-                              <input type="text" name="name" placeholder="enter your name">
-                              <button>Submit</button>
-                            </form>
                         </div>
                     </div>
                 </div>
