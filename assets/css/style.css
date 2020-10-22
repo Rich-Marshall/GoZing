@@ -1664,6 +1664,12 @@ pre {
     }
 }
 
+@media only screen and (min-width: 1200px) {
+    .break {
+      display: none;
+    }
+}
+
 .cd-nav {
     position: fixed;
     z-index: 1200;
@@ -2297,6 +2303,7 @@ body {
     .body_has-navbar-left .container {
         max-width: 750px;
     }
+
 }
 
 @media (min-width: 1230px) {
@@ -6055,6 +6062,8 @@ Table of contents
     .login-box.gray-bg {
         margin-bottom: 20px;
     }
+
+
 }
 
 @media screen and (max-width: 992px) {
@@ -6097,6 +6106,10 @@ Table of contents
     }
     .feature-bg-box {
         margin-bottom: 50px;
+    }
+
+    .break {
+      display: none;
     }
 }
 
