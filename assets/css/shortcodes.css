@@ -1179,7 +1179,7 @@ dl.toggle.time-line:before {
 
 .btn {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 0px;
     /*font-family: 'Abel', sans-serif;*/
     letter-spacing: 1px;
     text-transform: uppercase;
