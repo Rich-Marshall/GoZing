@@ -108,7 +108,7 @@
 -----------------------------------------------------------------*/
 .page-title.banner-background {
     height: 630px;
-    padding: 200px 0;
+    padding: 100px 0;
     background-image: url(../img/about/02.jpg);
     /*background-attachment: fixed;*/
     background-repeat: no-repeat;
@@ -120,13 +120,13 @@
 	 parallax page title
 -----------------------------------------------------------------*/
 .page-title.parallax-title {
-    height: auto;
-    padding: 200px 0;
+    height: 300px;
+    padding: 100px 0;
     background-image: url(../img/parallax/2.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 50% 0;
-    background-size: cover;
+    background-position: 50% 0%;
+    background-size:  cover;
 }
 
 /* ----------------------------------------------------------------
@@ -184,7 +184,7 @@
 }
 
 .featured-item .title h4 {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     letter-spacing: 1px;
     font-weight: normal;
 }
@@ -1197,6 +1197,11 @@ dl.toggle.time-line:before {
 
 .btn-rounded {
     border-radius: 4px;
+}
+
+.btn-feature {
+    width: 250px;
+    margin-right: 20px;
 }
 
 .btn-circle {
@@ -4109,6 +4114,7 @@ h3.timeline-title {
     padding: 50px 30px;
     border: 1px solid #eaeaea;
     background: #fff;
+    width: 100%;
 }
 
 a.show-detail {
@@ -4131,7 +4137,7 @@ a.show-detail:after {
 
 .career-details-info {
     z-index: 1;
-    padding: 30px 0 0 0;
+    padding: 0px 0 0 0;
     background: #fff;
 }
 
