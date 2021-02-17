@@ -74,7 +74,7 @@
 }
 
 .page-title.dark .breadcrumb > li + li:before {
-    /*color: #7e7e7e;*/
+    /* color: #7e7e7e; */
 }
 
 .page-title.dark .breadcrumb li > a:hover {
@@ -1200,8 +1200,9 @@ dl.toggle.time-line:before {
 }
 
 .btn-feature {
-    width: 250px;
-    margin-right: 20px;
+    width: 200px;
+    padding: 15px 0;
+    margin-right: 40px;
 }
 
 .btn-circle {
