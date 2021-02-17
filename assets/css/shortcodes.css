@@ -1200,6 +1200,7 @@ dl.toggle.time-line:before {
 }
 
 .btn-feature {
+    font-size: 12px;
     width: 200px;
     padding: 15px 0;
     margin-right: 40px;
