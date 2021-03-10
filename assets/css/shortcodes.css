@@ -4117,6 +4117,42 @@ h3.timeline-title {
     border: 1px solid #eaeaea;
     background: #fff;
     width: 100%;
+    height: 350px;
+}
+
+.career-box:hover {
+  background: #e0bef3;
+  transition: 0.5s ease;
+}
+
+.career-box-2 {
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 50px 30px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    width: 100%;
+    height: 350px;
+}
+
+.career-box-2:hover {
+  background: #f8b9a0;
+  transition: 0.5s ease;
+}
+
+.career-box-3 {
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 50px 30px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    width: 100%;
+    height: 350px;
+}
+
+.career-box-3:hover {
+  background: #ccefa9;
+  transition: 0.5s ease;
 }
 
 a.show-detail {

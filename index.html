@@ -13,7 +13,8 @@
     <title>GoZing</title>
 
     <!--common style-->
-    <link href='http://fonts.googleapis.com/css?family=Abel|Source+Sans+Pro:400,300,300italic,400italic,600,600italic,700,700italic,900,900italic,200italic,200' rel='stylesheet' type='text/css'>
+    <!-- <link href='http://fonts.googleapis.com/css?family=Abel|Source+Sans+Pro:400,300,300italic,400italic,600,600italic,700,700italic,900,900italic,200italic,200' rel='stylesheet' type='text/css'> -->
+    <link href="https://fonts.googleapis.com/css?family=Archivo:500|Open+Sans:300,700" rel="stylesheet">
 
     <!-- inject:css -->
     <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
@@ -129,7 +130,7 @@
         <section class="body-content">
 
             <!--about us-->
-            <div class="page-content">
+            <div class="page-content" id="scroll-title">
                 <div class="container">
                     <div class="row">
                         <div class="post-list-aside">
@@ -163,82 +164,72 @@
             <!-- social and influencer links -->
                 <div class="container">
                     <div class="row">
-                        <div class="heading-title text-center" id="scroll-title">
+                        <div class="heading-title text-center" >
                             <h3 class="text-uppercase">What We Can Offer You</h3>
                         </div>
 
                         <div class="career-list">
-                            <div class="col-md-4 ">
-                                <div class="featured-item career-box text-center">
-                                    <div class="icon">
-                                        <i class="icon-desktop theme-color"></i>
-                                    </div>
-                                    <div class="title text-uppercase">
-                                        <h4>Social Media Marketing</h4>
-                                    </div>
+                          <div class="col-md-4 ">
+                            <a href="social.html">
+                            <div class="featured-item career-box text-center">
 
-                                    <a href="#" class="show-detail">View Details</a>
-
-                                    <div class="career-details-info">
-
-                                        <div class="desc">
-                                            With millions of views, hundreds of thousands of clicks, and thousands of sales under our belt, we use our experience to build the perfect social media marketing campaigns to achieve your social media goals.
-                                        </div>
-                                        <div class="m-top-30">
-                                            <a href="social.html" class="btn btn-medium btn-rounded btn-dark-solid btn-feature">Social Media Marketing</a>
-                                            <a href="#" class=" apply-btn cancel-btn">Close Details</a>
-                                        </div>
-
-                                    </div>
-                                </div>
+                              <div class="icon-img">
+                                  <img src="assets/img/Homepage Icons/Social Media Marketing.png" alt="">
                               </div>
+                                <div class="title text-uppercase">
+                                    <h4>Social Media Marketing</h4>
+                                </div>
+
+
+                                  <div class="desc">
+                                      With millions of views, hundreds of thousands of clicks, and thousands of sales under our belt, we use our experience to build the perfect social media marketing campaigns to achieve your social media goals.
+                                  </div>
+                            </div>
+                          </a>
+                        </div>
+
+
+
 
                               <div class="col-md-4 ">
-                                <div class="featured-item career-box text-center">
-                                    <div class="icon">
-                                        <i class="icon-tools theme-color"></i>
-                                    </div>
+                                <a href="adwords.html">
+                                <div class="featured-item career-box-2 text-center">
+
+                                  <div class="icon-img">
+                                      <img src="assets/img/Homepage Icons/AdWords.png" alt="">
+                                  </div>
                                     <div class="title text-uppercase">
                                         <h4>AdWords</h4>
                                     </div>
 
-                                    <a href="#" class="show-detail">View Details</a>
-                                    <div class="career-details-info">
+
                                       <div class="desc">
                                           Combining our extensive experience and industry research, we plan,build and manage AdWords campaigns driving highly targeted visitors to your website.
                                       </div>
-
-                                        <div class="m-top-30">
-                                            <a href="adwords.html" class="btn btn-medium btn-rounded btn-dark-solid btn-feature">AdWords</a>
-                                            <a href="#" class=" apply-btn cancel-btn">Close Details</a>
-                                        </div>
-
-                                    </div>
                                 </div>
+                              </a>
                             </div>
 
-                            <div class="col-md-4">
-                                <div class="featured-item career-box text-center">
-                                    <div class="icon">
-                                        <i class="icon-globe2 theme-color"></i>
-                                    </div>
-                                    <div class="title text-uppercase">
-                                        <h4>Content Marketing</h4>
-                                    </div>
+                            <div class="col-md-4 ">
+                              <a href="content.html">
+                              <div class="featured-item career-box-3 text-center">
 
-                                    <a href="#" class="show-detail">View Details </a>
-                                    <div class="career-details-info">
-                                      <div class="desc">
-                                        Using our unique experience and expert knowledge of SEO and content creation, we help build and implement custom strategies, increasing your website’s organic search traffic.
-                                      </div>
-                                        <div class="m-top-30">
-                                            <a href="content.html" class="btn btn-medium btn-rounded btn-dark-solid btn-feature ">Content Marketing</a>
-                                            <a href="#" class=" apply-btn cancel-btn">Close Details</a>
-                                        </div>
-
-                                    </div>
+                                <div class="icon-img">
+                                    <img src="assets/img/Homepage Icons/Content Marketing.png" alt="">
                                 </div>
-                            </div>
+                                  <div class="title text-uppercase">
+                                      <h4>Content Marketing</h4>
+                                  </div>
+
+
+                                    <div class="desc">
+                                      Using our unique experience and expert knowledge of SEO and content creation, we help build and implement custom strategies, increasing your website’s organic search traffic.
+                                    </div>
+                              </div>
+                            </a>
+                          </div>
+
+
 
                         </div>
                     </div>
@@ -248,7 +239,7 @@
             <!--clients-->
             <div class="page-content">
                 <div class="container">
-                  <div class="heading-title-alt border-short-bottom text-center ">
+                  <!-- <div class="heading-title-alt border-short-bottom text-center ">
                       <h4 class="text-uppercase theme-color">A Word From one of Our Clients</h4>
                       <div class="half-txt">
                         <p>
@@ -256,7 +247,7 @@
                         GoZing has provided a consistent return on our investment, and they've been flexible with the needs of a small business owner. Rather than the 'scattergun' effect I was so used to from previous agencies, we've been able to trial test each new campaign, liaise and develop the campaigns to ensure we get quality leads that convert.
                       </br></br>They've also been flexible with the campaigns to work around staff holidays, absences, busy periods etc. by increasing/ decreasing spend accordingly. Now that we're working with someone we trust and can handle the marketing side of things, it's given us the time and headspace to focus on and expand other business areas. </br> - <b>Josh, iMend ltd</b></p>
                       </div>
-                  </div>
+                  </div> -->
                     <div class="row">
                         <div class="col-md-12">
                             <div id="clients-1">
