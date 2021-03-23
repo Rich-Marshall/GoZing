@@ -6440,9 +6440,10 @@ Table of contents
         margin: 20px 0 0;
     }
 
-    .body-content {
+
+    /* .body-content {
       margin-top: 100px;
-    }
+    } */
     .page-content {
 
         padding: 0px 0;
@@ -6744,6 +6745,13 @@ Table of contents
         left: 0;
         text-align: center;
     }
+}
+
+@media screen and (min-width: 768px) {
+  .hide-767 {
+    display: none;
+
+  }
 }
 
 /* -------------------------------
