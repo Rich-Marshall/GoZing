@@ -6439,8 +6439,12 @@ Table of contents
         left: 15px;
         margin: 20px 0 0;
     }
+
+    .body-content {
+      margin-top: 100px;
+    }
     .page-content {
-        margin-top: 100px;
+
         padding: 0px 0;
     }
     .heading-title {
