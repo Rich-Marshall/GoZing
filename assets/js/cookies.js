@@ -16,10 +16,10 @@ window.onload = function () {
           }
           toastr.options.onclick = function () {
 
-              location.href = 'privacy.html#scroll-cookies';
+              location.href = '/privacy#scroll-cookies';
 
           };
-          toastr.info("<p'>Cookies help us deliver our services. By using our services, you agree to our use of cookies. <a href='privacy.html' target='_new'>More details</a></p>");
+          toastr.info("<p'>Cookies help us deliver our services. By using our services, you agree to our use of cookies. <a href='/privacy#scroll-cookies' target='_new'>More details</a></p>");
         });
 
         localStorage.setItem("hasCodeRunBefore", true);
