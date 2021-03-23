@@ -6426,7 +6426,10 @@ Table of contents
     }
 
     .banner-gozing2 {
-      background-image: url("../img/GoZing-Primary-Logo-Mobile2.png") !important;
+
+      /* background-image: url("../img/GoZing-Primary-Logo-Mobile2.png") !important; */
+      background-image: url("../img/GoZing-Primary-Logo-Mobile2-Test.png") !important;
+
     }
 
     .page-title .breadcrumb {
